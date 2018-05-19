@@ -1,0 +1,320 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: "微软雅黑";
+}
+body,html{
+    height: 100%;
+}
+body{
+    background-image: url("../img/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+/*上面开始*/
+.shang{
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+.shang .icon-ego-menu{
+    color: white;
+    margin-right: -10px;
+}
+.shang a{
+    font-size: 16px;
+    color: white;
+    margin-right: 32px;
+    text-decoration: none;
+}
+.button{
+    width: 109px;
+    height: 36px;
+    border-radius: 18px;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 36px;
+    color: white;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 14px;
+}
+.button i{
+    margin-left: 9px;
+    font-size: 16px;
+}
+.zuo{
+    width: 400px;
+    position: absolute;
+    left: 125px;
+    top: 178px;
+    bottom: 152px;
+}
+.zuoh1{
+    list-style: none;
+
+}
+.zuo h1{
+    font-size: 56px;
+    color: white;
+    font-weight: normal;
+}
+.zuo ul{
+    list-style: none;
+    margin-top: 54px;
+    margin-bottom: 45px;
+    width: 400px;
+    height: 78px;
+}
+.zuo li{
+    font-size: 15px;
+    color: white;
+    line-height: 24px;
+}
+.img2{
+    width: 240px;
+    height: 146px;
+    background-image: url("../img/2.jpg");
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 48px;
+}
+.img2 i{
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    display: inline-block;
+    opacity: 0.7;
+}
+.img3{
+    width: 50px;
+    height: 50px;
+    background-image: url("../img/7.png");
+    margin: 0 auto;
+}
+
+/*右边开始*/
+.you{
+    width: 510px;
+    height: 560px;
+    background: white;
+    position: absolute;
+    bottom: 120px;
+    right: 129px;
+    top: 120px;
+    border-radius: 20px;
+    box-shadow: 0 28px 57px rgba(0,0,0,0.72);
+}
+.f1{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #cccccc;
+    line-height: 60px;
+    text-align: center;
+}
+
+.f1 a{
+    font-size: 18px;
+    height: 59px;
+    display: inline-block;
+    width: 127px;
+    text-align: center;
+    text-decoration: none;
+    color: #4f5362;
+}
+.f1 .f11{
+    border-bottom: 2px solid #666666;
+}
+.safe{
+    width: 432px;
+    margin: 0 auto;
+}
+.f20ul{
+    list-style: none;
+    margin-left: -14px;
+    margin-top: 40px;
+}
+.f20ul li{
+    display: inline-block;
+    width: 131px;
+    height: 36px;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 14px;
+}
+.f20ul a{
+    display: inline-block;
+    width: 131px;
+    height: 36px;
+}
+.f21{
+    background: #55acee;
+}
+.f22{
+    background: #3b5998;
+}
+.f23{
+    background: #df4b38;
+}
+.f3{
+padding-top: 35px;
+}
+.f31{
+    width: 190px;
+    height: 1px;
+    background: #4f5362;
+    opacity: 0.2;
+    vertical-align: middle;
+    display: inline-block;
+
+}
+.f3 span{
+    color: #a8acb9;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.f4{
+    margin-top: 30px;
+    height: 64px;
+}
+.f40 h6{
+    font-size: 12px;
+    color: #a8acb9;
+    font-weight: normal;
+}
+.f40 input{
+    width: 205px;
+    height: 42px;
+    border: none;
+    background: #eff0f4;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-left: 20px;
+    outline: none;
+}
+.f5{
+   margin-top: 28px;
+    height: 64px;
+}
+.f50 h6{
+    font-size: 12px;
+    color: #a8acb9;
+    font-weight: normal;
+}
+.f51 input{
+    width: 430px;
+    height: 42px;
+    border: none;
+    background: #eff0f4;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.f6{
+    margin-top: 28px;
+    height: 64px;
+}
+.f62 button{
+    background: #1f5dea;
+    width: 205px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    color: white;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    list-style: none;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+.f7{
+    margin-top:40px ;
+    margin-left: -96px;
+}
+.f7i{
+    width: 22px;
+    height: 22px;
+    background: #cccccc;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+#f7aaa{
+    display: none;
+}
+.f7 label{
+    margin-left: 96px;
+}
+#f7bbb{
+    display: none;
+}
+#f7aaa:checked+.f7i{
+     background: #43cb83;
+     background-image: url("../img/9.png");
+     background-position: center center;
+     background-repeat: no-repeat;
+ }
+#f7bbb:checked+.f7i{
+    background: #43cb83;
+    background-image: url("../img/9.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.f7 span{
+    font-size: 14px;
+    color: #4f5362;
+}
+.input:focus {
+    background: white;
+    box-shadow: 0 9px 18px rgba(173, 178, 199, 0.62);
+    -webkit-box-shadow: 0 9px 18px rgba(173, 178, 199, 0.62);
+    -moz-box-shadow: 0 9px 18px rgba(173, 178, 199, 0.62);
+    -o-box-shadow: 0 9px 18px rgba(173, 178, 199, 0.62);
+}
+.f62 button,.icon-bofang1{
+    cursor: pointer;
+}
+.denlu{
+    width: 658px;
+    height: 668px;
+    background: rgba(256,256,256,0.5);
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 40px 40px;
+    box-shadow: 0 25px 25px rgba(0,0,0,0.5);
+}
+.in{
+    width: 424px;height: 60px; border-radius: 20px; margin-bottom: 50px;font-size: 24px;
+    text-align: center;
+    outline: none;
+    color: white;
+    background: rgba(0,0,0,0.3);
+    border: 1px solid white;
+}
+.in1{
+    margin-top: 20px;
+}
+.in2{
+    width: 424px;height: 60px; border-radius: 20px; margin-bottom: 50px;font-size: 24px;
+    outline: none;
+    background: #3b93db;
+    color: white;
+    border: 2px solid #3b93db;
+}
